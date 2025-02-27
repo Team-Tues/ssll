@@ -12,7 +12,16 @@ export default function ListTokens() {
 
   return (
     <div>
-      <pre>{JSON.stringify(tokenEvents, null, 4)}</pre>
+      <pre>
+        {JSON.stringify(
+          tokenEvents.map((token) => ({
+            ...token,
+            dex: `https://agni.finance/swap?outputCurrency=${token.token}`,
+          })),
+          null,
+          4
+        )}
+      </pre>
     </div>
   );
 }

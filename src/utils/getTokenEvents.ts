@@ -6,7 +6,7 @@ export async function getTokenEvents(): Promise<TokenEvent[]> {
   const logs: any = await publicClient.getLogs({
     address: process.env.NEXT_PUBLIC_LAUNCHPAD_ADDRESS as `0x${string}`,
     event: launchpadAbi[3] as any,
-    fromBlock: BigInt(0),
+    fromBlock: BigInt(76282020),
     toBlock: "latest",
   });
   // map token address to TokenURI
