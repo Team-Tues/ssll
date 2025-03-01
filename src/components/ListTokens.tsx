@@ -6,7 +6,7 @@ export default function ListTokens() {
 
   useEffect(() => {
     getTokenEvents().then((tokens: TokenEvent[]) => {
-      setTokenEvents(tokens);
+      setTokenEvents(tokens.reverse());
     });
   }, []);
 
