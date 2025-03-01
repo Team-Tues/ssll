@@ -2,6 +2,8 @@
 
 Codename SSLL (Single-Sided Liquidity Launchpad)
 
+https://docs.google.com/presentation/d/1H1C5Tbo-7Yr1SvoPHgf9x-rNZGtG5YxnhgFeoJjcMTM/edit?usp=sharing
+
 **What is Single-Sided Liquidity?** Liquidity that only holds one of the two tokens in a pool.
 
 **What is Launchpad?** A place where you can create your own token and launch it on the market.
